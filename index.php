@@ -44,7 +44,7 @@ $user2 = new User('Silvia', '1z8056', 'Silvia@ciao', '26', 'Mantova');
     flex-direction: column;
     background-color: #ccc;
   }
-  
+
   .user {
     width: 10%;
     border: 1px solid #000;
@@ -57,10 +57,11 @@ $user2 = new User('Silvia', '1z8056', 'Silvia@ciao', '26', 'Mantova');
 <!-- Container -->
 <h2>User 1</h2>
 <div class="user">
-  
+
   <?php
   echo $user1;
   ?>
+
 </div>
 <h2>User 2</h2>
 <div class="user">
@@ -68,4 +69,5 @@ $user2 = new User('Silvia', '1z8056', 'Silvia@ciao', '26', 'Mantova');
   <?php
   echo $user2;
   ?>
+  
 </div>
